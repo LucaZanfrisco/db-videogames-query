@@ -3,7 +3,8 @@ QUERY SELECT:
 1- Selezionare tutte le software house americane (3):
 
     SELECT * 
-    FROM [software_houses];
+    FROM [software_houses]
+    WHERE software_houses.country = 'United States';
 
 2- Selezionare tutti i giocatori della città di 'Rogahnland' (2): 
 
